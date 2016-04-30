@@ -1,0 +1,4 @@
+*.pyc
+cpp/bin
+cpp/build
+*.so

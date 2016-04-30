@@ -1,0 +1,15 @@
+#include <iostream>
+#include "Interface.h"
+
+
+int main(int argc, char* const argv[]){
+
+    // asking for greetings
+    std::cout << greetings("Johnny Bravo") << std::endl;
+
+    // Let's add some floats
+    std::cout << "the sum is equal to: " << add(12.1, 7.9) << std::endl;
+
+    return 0;
+
+}
